@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--CSS file-->
+    <link rel="stylesheet" href="lab2.css">
+
+    <title>Login Box</title>
+</head>
+<body>
+
+    <!--Heading of the web page-->
+    <h1>Login Page</h1>
+
+    <div class="login">
+     <!--Form-->
+    <form id="login_form">
+        <fieldset>
+            <legend>User Authentication</legend>
+
+            <!--Label and input field for user name-->
+            <label class="login__label" for="username">Username: </label>
+            <input class="login_txtbox" type="text" id="username" name="username"> <br>
+
+            <!--Label and input field for password-->
+            <label class="login__label" for="password">Password: </label>
+            <input type="password" id="password" name="password"> <br><br>
+
+            <!--Button to submit the form-->
+            <button type="submit" id="login__button">Login</button>
+            
+        </fieldset>
+       </form>
+    </div>
+
+    <!--Hidden output div-->
+    <div class="output">
+        <p id="output"></p>
+    </div>
+    
+    <!--JavaScript file-->
+    <script src="script.js"></script>
+
+</body>
+</html>
